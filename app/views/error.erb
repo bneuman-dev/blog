@@ -1,0 +1,7 @@
+<div class="container">
+ <p> <h2> YOU MADE A MISTAKE </h2></p>
+ <% @errors.each do |error| %>
+    <p><%=error%></p>
+  <%end%>
+  <a href=<%=@backtrack%>>Go back from whence you came</a>
+</div>

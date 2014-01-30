@@ -4,6 +4,16 @@
   padding: 0px 20px 20px 20px;
   border: 1px dotted black;
 }
+
+a {
+  text-decoration: none;
+}
+#header {
+   margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+}
+
 th {
   text-align: left;
 }

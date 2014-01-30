@@ -1,0 +1,10 @@
+<div id="header"><p>New post</a></p></div>
+<div class="container">
+  <form action=<%="/posts/#{@post.id}/edit/"%> method="post">
+    <p> Title: <input type="text" name="title" value=<%="#{@post.title}"%>></input></p>
+    <p> Content:</p><p> <textarea name="content" cols="60" rows="75"><%="#{@post.content}"%></textarea></p>
+    <p> Tags: <input type="text" name="tags" value="<%=@tags%>" ></p>
+    <p> <input type="submit" value="post"></p>
+  </form>
+  <p><a href=<%="/posts/#{@post.id}/delete/"%>>Delete post</a></p>
+</div>
